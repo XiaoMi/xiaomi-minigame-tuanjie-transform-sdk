@@ -146,6 +146,7 @@ namespace Mi
             try
             {
                 buildPath = Path.Combine(buildPath, "MiQGameBuild");
+                buildPath = buildPath.Replace("\\", "/");
 
                 // miniGame打包
                 var result = BuildMiniGame(buildPath, settings);
@@ -195,7 +196,6 @@ namespace Mi
             {
                 di.Create();
             }
-            buildPath = buildPath.Replace("\\", "/");
 
             PlayerSettings.runInBackground = false;
             PlayerSettings.MiniGame.threadsSupport = false;
