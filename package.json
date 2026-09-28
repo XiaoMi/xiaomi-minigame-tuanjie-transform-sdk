@@ -1,13 +1,19 @@
 {
   "name": "com.xiaomi.minigame",
-  "displayName": "XMSDK",
-  "description": "XiaoMi Mini Game Tuanjie Engine Adapter SDK Package.",
-  "version": "1.5.9",
+  "displayName": "Unity Xiaomi Game Tool",
+  "description":  "小米快游戏工具",
+  "author": { 
+    "name": "You San Di Technology (Shanghai) Co., LTd." 
+  },
+  "version": "2.0.1",
   "unity": "2019.4",
-  "unityRelease": "",
+  "category": "minigame",
   "keywords": [
     "Tuanjie",
-    "XM"
+    "WeixinMiniGame",
+    "Unity"
   ],
-  "dependencies": {}
+  "dependencies": {
+    "com.unity.nuget.newtonsoft-json": "3.2.1"
+  }
 }

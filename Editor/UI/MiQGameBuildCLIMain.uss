@@ -1,0 +1,26 @@
+VisualElement {
+}
+
+#mainL {
+    width: 100px;
+    font-size: 30px;
+}
+
+#root {
+    width: 100%;
+    height: 100%;
+}
+
+.actionButton {
+    width: 19%;
+    height: 90%;
+    font-size: 19px;
+}
+
+.odd {
+    background-color:#C5DBCA;
+}
+
+.even {
+    background-color:#FFFFFF;
+}

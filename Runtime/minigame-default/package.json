@@ -1,0 +1,14 @@
+{
+  "name": "quick-template",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "server": "qg server",
+    "build": "qg build",
+    "release": "qg release",
+    "watch": "qg watch"
+  },
+  "dependencies": {
+  }
+
+}
