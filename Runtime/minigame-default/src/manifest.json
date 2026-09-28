@@ -1,0 +1,36 @@
+{
+  "package": "$PACKAGE_NAME",
+  "name": "$NAME",
+  "icon": "images/logo.png",
+  "versionName": "$VERSION_NAME",
+  "versionCode": $VERSION_CODE,
+  "minPlatformVersion": $MIN_PLATFORM_VERSION,
+  "orientation": "$ORIENTATION",
+  "type": "$TYPE",
+  "subpackages": [
+    {
+      "name": "wasmcode",
+      "root": "wasmcode/"
+    },
+    {
+      "name": "data-package",
+      "root": "data-package/"
+    }
+  ],
+  "networkTimeout": {
+    "request": 15000,
+    "connectSocket": 5000,
+    "uploadFile": 5000,
+    "downloadFile": 30000
+  },
+  "config": {
+    "logLevel": "$LOG_LEVEL"
+  },
+  "buildType": "$BUILD_TYPE",
+  "deviceOrientation": "$ORIENTATION",
+  "allianceVersion": $ALLIANCE_VERSION,
+  "engine": "$ENGINE_VERSION",
+  "workers":{
+  	"path":"workers/response"
+  }
+}

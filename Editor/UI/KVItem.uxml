@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Main.uss?fileID=7433441132597879392&amp;guid=a9284c959302e2242b879cb7e906a35b&amp;type=3#Main" />
+    <ui:VisualElement name="kvitem" style="flex-direction: row; align-items: stretch; align-self: center; justify-content: flex-start; width: 100%; height: 36px; min-width: 100%; max-width: 100%;">
+        <ui:Label name="kv-key" tabindex="-1" text="Key" parse-escape-sequences="true" display-tooltip-when-elided="true" style="width: 30%; align-items: flex-end; justify-content: flex-start; margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 10px; padding-top: 5px; padding-right: 5px; padding-bottom: 5px; color: rgb(0, 0, 0); min-width: 30%; max-width: 0%; padding-left: 5px;" />
+        <ui:Label name="kv-value" tabindex="-1" text="vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv" parse-escape-sequences="true" display-tooltip-when-elided="true" style="width: 39%; min-width: 39%; max-width: 39%; margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px; padding-top: 5px; padding-right: 5px; padding-bottom: 5px;" />
+        <ui:VisualElement name="tex" style="flex-grow: 1; width: 30px; height: 30px; min-width: 30px; min-height: 30px; max-width: 30px; max-height: 30px; margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px;" />
+    </ui:VisualElement>
+</ui:UXML>
