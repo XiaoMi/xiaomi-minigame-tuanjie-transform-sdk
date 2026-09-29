@@ -37,7 +37,7 @@ Recordings/
 *.VC.db
 
 # Node and package manager artifacts
-**/node_modules/
+# The bundled Babel toolchain is intentionally committed.
 .npm/
 npm-debug.log*
 yarn-debug.log*
@@ -45,10 +45,10 @@ yarn-error.log*
 pnpm-debug.log*
 
 # Local build and archive output
-dist/
-out/
-output/
-release/
+/dist/
+/out/
+/output/
+/release/
 *.unitypackage
 *.rpk
 *.tgz
@@ -66,4 +66,8 @@ release/
 .env
 .env.*
 !.env.example
-coverage/
+/coverage/
+
+# Keep all installed dependencies, including nested package build directories.
+!**/node_modules/
+!**/node_modules/**
